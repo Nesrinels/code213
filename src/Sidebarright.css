@@ -1,0 +1,115 @@
+.firstComponent{
+
+    display: block;
+    height: 500px;
+    width: 400px;
+    background-color: blueviolet;
+    margin-left: 870px;
+    border-radius: 40px;
+
+}
+
+
+.firstSmallDiv{
+
+    height: 100px;
+    width: 400px;
+
+}
+
+.firstSmallDiv h4{
+
+    margin-left: 50px;
+    padding-top: 30px;
+    font-size: 16px;
+
+}
+
+.firstSmallDiv a{
+
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: -40px;
+    font-size: 15px;
+
+}
+
+.firstSmallDiv hr{
+
+    margin-top: 10px;
+
+}
+
+.secondSmallDiv{
+
+    height: 100px;
+    width: 400px;
+
+}
+
+.secondSmallDiv h4{
+
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 16px;
+
+}
+
+.secondSmallDiv h5{
+
+    margin-top: 2px;
+    margin-left: 29px;
+    font-size: 12px;
+
+}
+
+.thirdSmallDiv{
+
+    height: 100px;
+    width: 400px;
+
+}
+
+.thirdSmallDiv h4{
+
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 16px;
+
+}
+
+.thirdSmallDiv h5{
+
+    margin-top: 2px;
+    margin-left: 29px;
+    font-size: 12px;
+
+}
+
+.fourthSmalldiv{
+
+    height: 100px;
+    width: 400px;
+
+}
+
+.fourthSmallDiv h4{
+
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 16px;
+
+}
+
+.fourthSmallDiv h5{
+
+    margin-top: 2px;
+    margin-left: 29px;
+    font-size: 12px;
+
+}
