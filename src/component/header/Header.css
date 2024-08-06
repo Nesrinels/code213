@@ -31,14 +31,14 @@ header{
   .Buttons_options {
     display: flex;
   }
-  .Buttons_options button:hover {
-    background-color: rgb(203, 246, 255); 
-  }
   #btn {
     margin:10px 8px 5px;
     height: 45px;
     width: 45px;  
     background-color: rgb(240, 240, 240);
+  }
+  #btn:hover {
+    background-color: rgb(203, 246, 255); 
   }
   #btn svg {
    margin-left: 6px;
