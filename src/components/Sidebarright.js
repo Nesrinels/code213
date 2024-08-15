@@ -7,90 +7,78 @@ function Sidebarright () {
 
         <div className="firstComponent">
 
-            <div className="firstSmallDiv">
-
-                <h4>
-                 Friend Request
-                </h4>
-
-                <a href="">
-                 See all
-                </a>
-
-                <hr></hr>
-                
-            </div>
-
-            <div className="secondSmallDiv">
-
-            <img src="" alt="" >
-            </img>
+        <div class="firstSmallDiv">
 
             <h4>
-             Anthony Daugloi
+             Your Team
             </h4>
 
-            <h5>
-            12 mutual friends
-            </h5>
-
-            <a href="">
-
+            <a href="#">
+             See all
             </a>
 
-            <a href="">
+            <hr></hr>
+            
+        </div>
 
-            </a>
+        <div className="secondSmallDiv">
+
+            <div className="firstmicroDiv">
+        <img src="/user-1.png" alt="user1" >
+        </img>
+            </div>
+
+            <div class="secondmicroDiv">
+
+        <h4>
+         Anthony Daugloi
+        </h4>
+
+        <h5>
+        12 mutual friends
+        </h5>
 
             </div>
 
-            <div className="thirdSmallDiv">
+        </div>
 
-            <img src="" alt="" >
+        <div class="thirdSmallDiv">
 
-            </img>
+            <div class="firstMicroDiv">
+        <img src="/images/user-2.png" alt="user2" >
 
-            <h4>
-            Mohannad Zitoun
-            </h4>
+        </img>
+    </div>
 
-            <h5>
-            12 mutual friends
-            </h5>
+    <div class="secondMicroDiv">
+        <h4>
+        Mohannad Zitoun
+        </h4>
 
-            <a href="">
+        <h5>
+        12 mutual friends
+        </h5>
 
-            </a>
+    </div>
 
-            <a href="">
+        </div>
 
-            </a>
+        <div class="fourthSmallDiv">
 
-            </div>
+            <div class="FirstmicroDiv">
+        <img src="/images/user-3.avif" alt="user3" >
 
-            <div className="fourthSmallDiv">
+        </img>
+        </div>
+    <div class="SecondmicroDiv">
+        <h4>
+        Mohannad Zebar
+        </h4>
 
-            <img src="" alt="" >
-
-            </img>
-
-            <h4>
-            Mohannad Zitoun
-            </h4>
-
-            <h5>
-            12 mutual friends
-            </h5>
-
-            <a href="">
-
-            </a>
-
-            <a href="">
-
-            </a>
-
-            </div>
+        <h5>
+        12 mutual friends
+        </h5>
+    </div>
 
         </div>
 
