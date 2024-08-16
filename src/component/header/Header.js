@@ -11,14 +11,13 @@ import { FiMessageSquare } from 'react-icons/fi';
 import { IoSettingsOutline } from 'react-icons/io5';
 import { FcBusinesswoman } from 'react-icons/fc';
 
-function Header() {
- 
 
+function Header() {
   return (
     <header>
       <div className='Navbar'>
         <img src={logo} alt='lg' />
-        <div className='Buttons_options'>
+         <div className='Buttons_options'>
           <div id="search">
             <div className="mb-3 xl:w-96">
               <div className="relative mb-4 flex w-full flex-wrap items-stretch">
@@ -45,17 +44,18 @@ function Header() {
               </div>
             </div>
           </div>
-          <button id="btn" ><CiHome /></button>
-          <button id="btn" ><IoIosFlash /></button>
-          <button id="btn" ><CiVideoOn /></button>
-          <button id="btn" ><CgProfile /></button>
-          <button id="btn" ><GrBasket /></button>
+          <button id="btn"><CiHome  /></button>
+          <button id="btn"><IoIosFlash /></button>
+          <button id="btn"><CiVideoOn /></button>
+          <button id="btn"><CgProfile /></button>
+          <button id="btn"><GrBasket /></button>
         </div>
         <div className='Buttons_options_2'>
-          <button id='btn_1' ><IoNotificationsOutline /></button>
-          <button id="btn_1" ><FiMessageSquare /></button>
-          <button id="btn_1" ><IoSettingsOutline /></button>
-          <button id="btn_1" ><FcBusinesswoman /></button>
+         
+          <button id="btn_1">< IoNotificationsOutline /></button>
+          <button id="btn_1"><FiMessageSquare /></button>
+          <button id="btn_1"><IoSettingsOutline /></button>
+          <button id="btn_1"><FcBusinesswoman /></button>
         </div>
       </div>
     </header>

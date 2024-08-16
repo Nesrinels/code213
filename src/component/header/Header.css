@@ -43,6 +43,9 @@ header{
   #btn svg {
    margin-left: 6px;
   }
+  .Buttons_options_2 {
+    display: flex;
+  }
   .Buttons_options_2 button{
     background-color: rgb(222, 249, 255);
   }
