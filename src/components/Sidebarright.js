@@ -1,4 +1,4 @@
-import './Sidebarright.css'
+import '.components./Sidebarright.css'
 
 
 function Sidebarright () {
@@ -7,7 +7,7 @@ function Sidebarright () {
 
         <div className="firstComponent">
 
-        <div class="firstSmallDiv">
+        <div className="firstSmallDiv">
 
             <h4>
              Your Team
@@ -28,7 +28,7 @@ function Sidebarright () {
         </img>
             </div>
 
-            <div class="secondmicroDiv">
+            <div className="secondmicroDiv">
 
         <h4>
          Anthony Daugloi
@@ -40,17 +40,20 @@ function Sidebarright () {
 
             </div>
 
-        </div>
+            </div>
 
-        <div class="thirdSmallDiv">
+        <div className="thirdSmallDiv">
 
-            <div class="firstMicroDiv">
+            <div className="firstMicroDiv">
         <img src="/images/user-2.png" alt="user2" >
 
         </img>
     </div>
 
-    <div class="secondMicroDiv">
+        </div>
+
+    <div className="secondMicroDiv">
+
         <h4>
         Mohannad Zitoun
         </h4>
@@ -61,16 +64,21 @@ function Sidebarright () {
 
     </div>
 
+        <div className="fourthSmallDiv">
+
+            <div className="FirstmicroDiv">
+
+
+            <img src="/images/user-3.avif" alt="user3" >
+
+            </img>
+
+            </div>
+
         </div>
 
-        <div class="fourthSmallDiv">
 
-            <div class="FirstmicroDiv">
-        <img src="/images/user-3.avif" alt="user3" >
-
-        </img>
-        </div>
-    <div class="SecondmicroDiv">
+    <div className="SecondmicroDiv">
         <h4>
         Mohannad Zebar
         </h4>
@@ -86,4 +94,4 @@ function Sidebarright () {
 
 }
 
-export default Sidebarright;
+export default Sidebarright ;
