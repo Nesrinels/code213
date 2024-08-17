@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Sidebarright from './Sidebarright';
+import Sidebarright from './Components/Sidebarright';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Sidebarright/>
+    <Sidebarright />
   </React.StrictMode>
 );
 

@@ -164,26 +164,6 @@
 
 }
 
-.FirstmicroDiv{
-
-    height: 100px;
-    width: 100px;
-    margin-left: 20px;
-    margin-top: 20px;
-    display: block;
-
-}
-
-.SecondmicroDiv{
-
-    height: 100px;
-    width: 150px;
-    margin-top: 30px;
-    margin-left: -40px;
-    display: block;
-
-}
-
 .fourthSmallDiv img{
 
     height: 60px;
@@ -206,5 +186,25 @@
     margin-top: 2px;
     margin-left: 29px;
     font-size: 12px;
+
+}
+
+.FirstmicroDiv{
+
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+
+}
+
+.SecondmicroDiv{
+
+    height: 100px;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: -40px;
+    display: block;
 
 }
