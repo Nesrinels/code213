@@ -1,0 +1,8 @@
+.new_post{
+    border: 2px solid ;
+    display: flex;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
