@@ -5,7 +5,6 @@ import { IoVideocamOutline } from "react-icons/io5";
 import { HiOutlinePhoto } from "react-icons/hi2";
 import { FiCamera } from "react-icons/fi";
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 
 
