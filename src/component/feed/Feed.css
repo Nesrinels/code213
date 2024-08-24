@@ -1,63 +1,74 @@
-:root {
-    --foreground: #f0f0f0; 
-    --shadow: rgba(0, 0, 0, 0.3); 
-    --black: #000000; 
+.createPost {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 16px;
   }
-
-.live{
-    background: #ffebed;
-    display: flex;
-}
-.photo{
-    background: #d7ffef;
-    display: flex;
-}
-.feels{
-    background: #fff4d1;
-    display: flex;
-}
-
-.createPost{
-    background: var(--white);
-    box-shadow: 0 2px 5px 0 var(--shadow);
-    border-radius: 20px;
-    padding: 15px;
-    margin-bottom: 20px;
-}
-.post-text img{
-    width: 40px;
-    border-radius: 50px;
-    position: absolute;
-    left: 10px;
-    top: 30px;
-}
-.post-text input{
-    padding: 20px 20px 20px 60px;
-    width: 100%;
-    background: var(--foreground);
-    border: none;
-    height: 100px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px 0 var(--shadow);
-    color: var(--black);
-}
-.post-text{
-    width: 100%;
-    position: relative;
-    margin-bottom: 30px;
-}
-.post-icon{
+  
+  .post-text {
     display: flex;
     align-items: center;
-}
-.post-icon a{
-    margin-right: 10px;
-    padding: 5px;
-    border-radius: 10px;
-    font-size: 14px;
-    color: #262626;
-    font-weight: 500px;
-}
-.py-1 a {
+    margin-bottom: 16px;
+  }
+  
+  .post-text img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .post-text input {
+    flex-grow: 1;
+    border: none;
+    font-size: 16px;
+    color: #1c1e21;
+    padding: 10px;
+  }
+  
+  .post-text input::placeholder {
+    color: #65676b;
+  }
+  
+  .post-icon {
     display: flex;
-}
+    align-items: center;
+    border-top: 1px solid #e4e6eb;
+    padding-top: 12px;
+  }
+  
+  .post-icon a {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #65676b;
+    text-decoration: none;
+  }
+  
+  .post-icon a:hover {
+    background-color: #f2f3f5;
+  }
+  
+  .live {
+    background: #ffebed;
+  }
+  
+  .photo {
+    background: #d7ffef;
+  }
+  
+  .feels {
+    background: #fff4d1;
+  }
+  
+  .live, .photo, .feels {
+    display: flex;
+    align-items: center;
+  }
+  
+  .py-1 a {
+    display: flex;
+  }
