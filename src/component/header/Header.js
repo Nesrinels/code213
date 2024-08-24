@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Header.css";
-import logo from '../../assets/images/logo.jpeg';
+import logo from '../../assets/images/logo.png';
 import { CiHome } from "react-icons/ci";
 import { IoIosFlash } from 'react-icons/io';
 import { CiVideoOn } from 'react-icons/ci';
