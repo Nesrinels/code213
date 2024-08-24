@@ -5,13 +5,14 @@ import Feed from './component/feed/Feed';
 import Sidebarleft from './component/Sidebarleft/Sidebarleft';
 import Container from './Container/Container';
 
+
 function App() {
   return (
     <>
     <Header/>
     <Container>
-     <Feed/>
-     <Sidebarleft/>
+   
+      <Sidebarleft/> 
     </Container>
     </>
   )
