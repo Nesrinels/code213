@@ -1,0 +1,60 @@
+header{
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 5px;
+    box-shadow: -1px 8px 25px  rgb(242, 239, 239);
+  }
+  .Navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 1px;
+  }
+  .Navbar img {
+    height:70px;
+    width: 70px;
+    border-radius: 100%;
+  }
+  .Navbar svg {
+    height:30px;
+    width: 30px; 
+  }
+  .Navbar button {
+    border-radius: 100%;
+    /* border: 1px solid black; */
+  }
+  #search {
+    margin-top: 12px;
+    border-radius: 80px;
+  }
+  
+  .Buttons_options {
+    display: flex;
+  }
+  #btn {
+    margin:10px 8px 5px;
+    height: 45px;
+    width: 45px;  
+    background-color: rgb(240, 240, 240);
+  }
+  #btn:hover {
+    background-color: rgb(203, 246, 255); 
+  }
+  #btn svg {
+   margin-left: 6px;
+  }
+  .Buttons_options_2 {
+    display: flex;
+  }
+  .Buttons_options_2 button{
+    background-color: rgb(222, 249, 255);
+  }
+  #btn_1 {
+    margin:7px 8px 5px;
+    height: 45px;
+    width: 45px;
+  }
+  #btn_1 svg {
+    margin-left: 7px;
+   }
+  
