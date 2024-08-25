@@ -1,13 +1,12 @@
-import React from 'react'
-import Suggest from './Suggest'
+import React from "react";
+import Suggest from "./Suggest";
 // import Sidebarrightbottom from './Sidebarrightbottom';
 
 function Sidebarright() {
   return (
-    <Suggest/>
+    <Suggest />
     // <Sidebarrightbottom/>
-
-  )
+  );
 }
 
 export default Sidebarright;
