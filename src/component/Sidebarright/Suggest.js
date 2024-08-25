@@ -9,7 +9,7 @@ import user2 from "../../assets/images/user4.png";
 
 function Suggest() {
   return (
-   <div className="thirdpart">
+   <><div className="thirdpart">
     <div className="suppart">
       <h4>Suggest groupes</h4>
       <a href="#">See all</a>
@@ -32,7 +32,14 @@ function Suggest() {
       </div>
     </div>
   </div>
-  )
+
+  <div className="">
+
+    
+
+  </div>
+  </>
+  );
 }
 
 export default Suggest
