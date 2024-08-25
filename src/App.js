@@ -14,9 +14,9 @@ function App() {
     <Header/>
        
       <Container>
-        <Sidebarleft/>
-         <Feed/>
-        <Sidebarright/>
+        
+      <Sidebarleft/> <Feed/><Sidebarright/>
+        
       </Container> 
      
     
