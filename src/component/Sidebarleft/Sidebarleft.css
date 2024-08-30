@@ -1,101 +1,111 @@
 .Sidebarleft {
-    display: block;
+  display: block;
 }
-.favorite.styled:hover {
-    color: rgb(25, 0, 255); /* Couleur du texte lors du survol */
-  
-  }
-  
-  
-  .Newfeeds {
-    border-radius: 10px;
-       box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12); 
-     
-         margin-inline-end: left;
-         margin-block-start: 0.5em;
-         max-inline-size: 15rem;
-         overflow: hidden;
-       text-align: left;
-     color: gray;
-       background: hsl(0, 0%, 100%);
-       padding-block-start: 1rem;
-      padding-block-end: 1rem;
-      padding-inline-end: 1.25rem;
-      padding-inline-start: 1.25rem; 
-      font-size: 1rem;
-      
-   }
-  .Morepage {
-    border-radius: 10px;
-      box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12); 
-        margin-inline-end: left;
-        margin-block-start: 0.5em;
-        max-inline-size: 15rem;
-        overflow: hidden;
-      text-align: left;
-    color: gray;
-      background: hsl(0, 0%, 100%);
-  
-      padding-block-start: 1rem;
-      padding-block-end: 1rem;
-      padding-inline-end: 1.25rem;
-      padding-inline-start: 1.25rem; 
-      font-size: 1rem;   
-  }
-    .Account  {
-      border-radius: 10px;
-         box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12); 
-         margin-block-start: 0.5em;
-           margin-inline-end: left;
-           margin-block-start: 5 em;
-           max-inline-size: 15rem;
-           overflow: hidden;
-         text-align: left;
-       color: gray;
-         background: hsl(0, 0%, 100%);
-         padding-block-start: 1rem;
-      padding-block-end: 1rem;
-      padding-inline-end: 1.25rem;
-      padding-inline-start: 1.25rem; 
-      font-size: 1rem;
-      
-     }
-     .title-project {
-     padding-block-start: 0.25rem;
-     padding-block-end: 0.25rem; 
-     padding-inline-start: 0.25rem;
-     padding-inline-end: 1.5rem; 
-     
-     
-     
-     }
-  
- 
-  /* Styles pour le conteneur du bouton */
 
-  
-  /* Styles pour le bouton lui-même */
-  .favorite.styled {
-    background-color: #ffffff; /* Couleur de fond du bouton */
-    color:gray; /* Couleur du texte */
-    border: none; /* Supprime les bordures par défaut du bouton */
-    border-radius: 5px; /* Arrondit les coins du bouton */
-    padding: 0px; /* Espace autour du texte à l'intérieur du bouton */
-    font-size: 16px; /* Taille du texte */
-    cursor: pointer; /* Change le curseur lorsqu'on survole le bouton */
-    text-decoration: none; /* Supprime le soulignement du texte */
-    display: flex;
-    align-items: center; /* Aligne l'icône et le texte verticalement */
-    justify-content: center; /* Centre le contenu horizontalement */
-    gap:10 px; /* Espace entre l'icône et le texte */
-    width: 200px; /* Largeur fixe du bouton */
-    height: 40px; /* Hauteur fixe du bouton */
-    transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur */
-    justify-content: space-between ; 
-    display: flex;
-    align-items: right;
-  }
-  
-  /* .text-large {
+.favorite.styled:hover {
+  color: rgb(25, 0, 255);
+  /* Couleur du texte lors du survol */
+
+}
+
+.Newfeeds {
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  margin-inline-end: left;
+  margin-block-start: 0.5em;
+  max-inline-size: 15rem;
+  overflow: hidden;
+  text-align: left;
+  color: gray;
+  background: hsl(0, 0%, 100%);
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  padding-inline-end: 1.25rem;
+  padding-inline-start: 1.25rem;
+  font-size: 1rem;
+
+}
+
+.Morepage {
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  margin-inline-end: left;
+  margin-block-start: 0.5em;
+  max-inline-size: 15rem;
+  overflow: hidden;
+  text-align: left;
+  color: gray;
+  background: hsl(0, 0%, 100%);
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  padding-inline-end: 1.25rem;
+  padding-inline-start: 1.25rem;
+  font-size: 1rem;
+}
+
+.Account {
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  margin-block-start: 0.5em;
+  margin-inline-end: left;
+  margin-block-start: 5 em;
+  max-inline-size: 15rem;
+  overflow: hidden;
+  text-align: left;
+  color: gray;
+  background: hsl(0, 0%, 100%);
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  padding-inline-end: 1.25rem;
+  padding-inline-start: 1.25rem;
+  font-size: 1rem;
+
+}
+
+.title-project {
+  padding-block-start: 0.25rem;
+  padding-block-end: 0.25rem;
+  padding-inline-start: 0.25rem;
+  padding-inline-end: 1.5rem;
+}
+
+/* Styles pour le conteneur du bouton */
+
+/* Styles pour le bouton lui-même */
+.favorite.styled {
+  background-color: #ffffff;
+  /* Couleur de fond du bouton */
+  color: gray;
+  /* Couleur du texte */
+  border: none;
+  /* Supprime les bordures par défaut du bouton */
+  border-radius: 5px;
+  /* Arrondit les coins du bouton */
+  padding: 0px;
+  /* Espace autour du texte à l'intérieur du bouton */
+  font-size: 16px;
+  /* Taille du texte */
+  cursor: pointer;
+  /* Change le curseur lorsqu'on survole le bouton */
+  text-decoration: none;
+  /* Supprime le soulignement du texte */
+  display: flex;
+  align-items: center;
+  /* Aligne l'icône et le texte verticalement */
+  justify-content: center;
+  /* Centre le contenu horizontalement */
+  gap: 10 px;
+  /* Espace entre l'icône et le texte */
+  width: 200px;
+  /* Largeur fixe du bouton */
+  height: 40px;
+  /* Hauteur fixe du bouton */
+  transition: background-color 0.3s ease;
+  /* Transition douce pour le changement de couleur */
+  justify-content: space-between;
+  display: flex;
+  align-items: right;
+}
+
+/* .text-large {
     font-size: var(--font-size-large); } */
-  

@@ -5,7 +5,7 @@ function Bouton({ icon, text, iconColor }) {
   return (
     <div className="title-project">
       <button className="favorite styled" type="button">
-        <a>
+        <a href='#S'>
           <Icons name={icon} color={iconColor} />
           {text} 
         </a>
