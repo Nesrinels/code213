@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Event from './Event/Event';
+import Suggestgrp from './Suggestgrp/Suggestgrp';
+import Post from './Post/Post'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Suggestgrp/>
+    <Event/>
+    <Post/>
   </React.StrictMode>
 );
 
