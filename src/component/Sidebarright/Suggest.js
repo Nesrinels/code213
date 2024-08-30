@@ -1,5 +1,6 @@
 import "./Suggest.css";
 import React from "react";
+import { BrowserRouter, Routes, Route } from ''
 import image from "../../assets/images/image.jpg";
 import user3 from "../../assets/images/user3.png";
 import user4 from "../../assets/images/user2.png";
@@ -11,8 +12,7 @@ import user7 from "../../assets/images/user-pic-3.png";
 
 function Suggest() {
   return (
-          <>
-   
+    <>
       <div className="firstComponent">
         {/* the first small div  --> start  */}
 
@@ -117,7 +117,6 @@ function Suggest() {
         </div>
       </div>
 
-
       <div className="lastpart">
         <div className="suppart2">
           <h4>Event</h4>
@@ -158,4 +157,4 @@ function Suggest() {
   );
 }
 
-export default Suggest ; 
+export default Suggest;
