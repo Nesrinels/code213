@@ -1,5 +1,9 @@
 
 import './App.css';
+import Event from './Event/Event';
+import Suggestgrp from './Suggestgrp/Suggestgrp';
+import Post from './Post/Post'
+
 import Header from './component/header/Header';
 import Feed from './component/feed/Feed';
 import Sidebarleft from './component/Sidebarleft/Sidebarleft';
@@ -14,6 +18,7 @@ function App() {
     <Sidebarleft/>
      <Feed/>
      <Sidebarright/>
+     <Post/>
     </Container>
     </>
   )
