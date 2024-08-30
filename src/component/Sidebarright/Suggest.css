@@ -1,60 +1,3 @@
-.suggest {
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12); 
-  width: 19rem;
-  height: 25rem;
-}
-
-.block1 {
-  display: flex; /* Ajoutez display: flex pour que justify-content fonctionne */
-  justify-content: space-between;
-  margin-left: 21px;
-  margin-right: 25px;
-  padding-bottom: 24px;
-  margin-top: 28px;
-}
-
-.block2 {
-  display: block;
-
-}
-.block2 img {
-  border-radius: 40px;
-  padding: 1.5rem;
-}
-.block3 {
-  display: flex;
-  margin-left: 50px;
-  margin-top: 4px;
-  margin-bottom: 0px;
-}
-
-.block3 img {
-  display: block;
-  border-radius: 100%;
-  height: 40px;
-  width: 40px;
-  margin-left: -15px;
-}
-
-.block3 a {
-  display: block; /* Ajoutez display: block pour appliquer height et width */
-  border-radius: 100%;
-  height: 40px;
-  width: 40px;
-  text-align: center;
-  background-color: rgb(215, 215, 215);
-  margin-left: -15px;
-}
-
-.block3 p {
-  margin-top: 8px;
-  font-weight: 600;
-  color: #adb5bd;
-}
-
-
 .thirdpart {
   display: inline-block;
   margin-top: 480px;
@@ -184,7 +127,7 @@
   margin-left: -23px;
 }
 
-.firstComponent{
+.firstComponent {
 
   display: block;
   margin-top: 20px;
@@ -204,14 +147,14 @@
 }
 
 
-.firstSmallDiv{
+.firstSmallDiv {
 
   height: 80px;
   width: 375px;
 
 }
 
-.firstSmallDiv h4{
+.firstSmallDiv h4 {
 
   margin-left: 20px;
   padding-top: 20px;
@@ -220,7 +163,7 @@
 
 }
 
-.firstSmallDiv a{
+.firstSmallDiv a {
 
   text-decoration: none;
   color: #1E74FD;
@@ -234,14 +177,14 @@
 
 }
 
-.firstSmallDiv hr{
+.firstSmallDiv hr {
 
   margin-top: 10px;
   width: 100%;
 
 }
 
-.secondSmallDiv{
+.secondSmallDiv {
 
   height: 100px;
   width: 360px;
@@ -252,7 +195,7 @@
 
 }
 
-.firstmicroDiv{
+.firstmicroDiv {
 
   height: 100px;
   width: 100px;
@@ -262,7 +205,7 @@
 
 }
 
-.firstmicroDiv img{
+.firstmicroDiv img {
 
   height: 60px;
   width: 60px;
@@ -273,7 +216,7 @@
 
 }
 
-.secondmicroDiv{
+.secondmicroDiv {
 
   height: 100px;
   width: 150px;
@@ -282,7 +225,8 @@
   display: block;
 
 }
-.secondmicroDiv h4{
+
+.secondmicroDiv h4 {
 
   margin-top: 0px;
   margin-left: 20px;
@@ -291,7 +235,7 @@
 
 }
 
-.secondmicroDiv h5{
+.secondmicroDiv h5 {
 
   margin-top: 2px;
   margin-left: 29px;
@@ -300,7 +244,7 @@
 
 }
 
-.thirdSmallDiv{
+.thirdSmallDiv {
 
   height: 100px;
   width: 360px;
@@ -312,7 +256,7 @@
 
 }
 
-.firstMicroDiv{
+.firstMicroDiv {
 
   height: 100px;
   width: 100px;
@@ -322,7 +266,7 @@
 
 }
 
-.secondMicroDiv{
+.secondMicroDiv {
 
   height: 100px;
   width: 150px;
@@ -332,7 +276,7 @@
 
 }
 
-.thirdSmallDiv h4{
+.thirdSmallDiv h4 {
 
   margin-top: 0px;
   margin-left: 20px;
@@ -341,7 +285,7 @@
 
 }
 
-.thirdSmallDiv h5{
+.thirdSmallDiv h5 {
 
   margin-top: 2px;
   margin-left: 29px;
@@ -349,7 +293,7 @@
 
 }
 
-.fourthSmallDiv{
+.fourthSmallDiv {
 
   height: 100px;
   width: 360px;
@@ -361,15 +305,15 @@
 
 }
 
-.fourthSmallDiv img{
+.fourthSmallDiv img {
 
   height: 60px;
   width: 60px;
   border-radius: 100px;
-  
+
 }
 
-.fourthSmallDiv h4{
+.fourthSmallDiv h4 {
 
   margin-top: 0px;
   margin-left: 20px;
@@ -378,7 +322,7 @@
 
 }
 
-.fourthSmallDiv h5{
+.fourthSmallDiv h5 {
 
   margin-top: 2px;
   margin-left: 29px;
@@ -386,7 +330,7 @@
 
 }
 
-.FirstmicroDiv{
+.FirstmicroDiv {
 
   height: 100px;
   width: 100px;
@@ -396,7 +340,7 @@
 
 }
 
-.SecondmicroDiv{
+.SecondmicroDiv {
 
   height: 100px;
   width: 150px;
@@ -404,5 +348,154 @@
   margin-left: -40px;
   display: block;
 
+}
 
+.lastpart {
+  margin-top: 900px;
+  margin-left: -500px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border-radius: 15px !important;
+  border: 0 !important;
+  width: 25% !important;
+  height: 350px;
+  width: 375px !important;
+  background-color: #fff;
+  background-clip: border-box;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, .05) !important;
+  box-sizing: border-box;
+}
+
+.suppart2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.suppart2 a {
+  color: #1E74FD;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+}
+
+.suppart2 h4{
+
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: 500;
+
+}
+
+.A2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.a {
+  border-radius: 8px;
+  background-color: #10d876;
+  color: white;
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.b {
+  margin-top: 40px;
+  margin-right: 5px;
+  font-size: 13px !important;
+  margin-left: 8px;
+}
+
+.b h4 {
+  font-weight: 700 !important;
+  font-family: Montserrat, sans-serif;
+}
+
+.b p {
+  margin-top: 5px;
+  font-family: Montserrat, sans-serif;
+  color: #adb5bd;
+  font-weight: 500 !important;
+}
+
+.B2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c {
+  border-radius: 8px;
+  background-color: #FE9431;
+  color: white;
+  margin-top: 27px;
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.d {
+  margin-top: 35px;
+  margin-right: 7px;
+  font-size: 13px !important;
+  margin-left: 8px;
+}
+
+.d h4 {
+  font-weight: 700 !important;
+  font-family: Montserrat, sans-serif;
+}
+
+.d p {
+  margin-top: 2px;
+  font-family: Montserrat, sans-serif;
+  color: #adb5bd;
+  font-weight: 500 !important;
+}
+
+.C2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.e {
+  border-radius: 8px;
+  background-color: #1E74FD;
+  color: white;
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.f {
+  margin-top: 40px;
+  margin-right: 7px;
+  font-size: 13px !important;
+  margin-left: 8px;
+}
+
+.f h4 {
+
+  font-weight: 700 !important;
+  font-family: Montserrat, sans-serif;
+
+}
+
+.f p {
+  margin-top: 2px;
+  font-family: Montserrat, sans-serif;
+  color: #adb5bd;
+  font-weight: 500 !important;
 }
