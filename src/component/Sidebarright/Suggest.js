@@ -5,9 +5,9 @@ import user3 from "../../assets/images/user3.png";
 import user4 from "../../assets/images/user2.png";
 import user1 from "../../assets/images/user1.png";
 import user2 from "../../assets/images/user4.png";
-import user5 from "../../assets/images/user-pic-1.png"
-import user6 from "../../assets/images/user-pic-2.png"
-import user7 from "../../assets/images/user-pic-3.png"
+import user5 from "../../assets/images/user-pic-1.png";
+import user6 from "../../assets/images/user-pic-2.png";
+import user7 from "../../assets/images/user-pic-3.png";
 
 function Suggest() {
   return (
@@ -38,97 +38,90 @@ function Suggest() {
 
 
     <>
-
-
       <div className="firstComponent">
-      {/* the first small div  --> start  */}
+        {/* the first small div  --> start  */}
 
-      <div className="firstSmallDiv">
-        <h4>Your Team</h4>
+        <div className="firstSmallDiv">
+          <h4>Your Team</h4>
 
-        <a href="#">See all</a>
+          <a href="#S">See all</a>
 
-        <hr></hr>
-      </div>
-
-      {/* the first small div  --> end */}
-
-      {/* second small div --> start  */}
-
-      <div className="secondSmallDiv">
-        {/* first micro div --> start  */}
-
-        <div className="firstmicroDiv">
-          <img src={user5} alt="user1"></img>
+          <hr></hr>
         </div>
 
-        {/* first micro div --> end  */}
+        {/* the first small div  --> end */}
 
-        {/* second micro div --> start  */}
+        {/* second small div --> start  */}
 
-        <div className="secondmicroDiv">
-          <h4>Anthony Daugloi</h4>
+        <div className="secondSmallDiv">
+          {/* first micro div --> start  */}
 
-          <h5>12 mutual friends</h5>
+          <div className="firstmicroDiv">
+            <img src={user5} alt="user1"></img>
+          </div>
+
+          {/* first micro div --> end  */}
+
+          {/* second micro div --> start  */}
+
+          <div className="secondmicroDiv">
+            <h4>Anthony Daugloi</h4>
+
+            <h5>12 mutual friends</h5>
+          </div>
+
+          {/* second micro div --> end  */}
         </div>
 
-        {/* second micro div --> end  */}
-      </div>
+        {/* second small div --> end */}
 
-      {/* second small div --> end */}
+        {/* third small div --> start  */}
 
-      {/* third small div --> start  */}
+        <div className="thirdSmallDiv">
+          {/* first micro div --> start  */}
 
-      <div className="thirdSmallDiv">
-        {/* first micro div --> start  */}
+          <div className="firstMicroDiv">
+            <img src={user6} alt="user2"></img>
+          </div>
 
-        <div className="firstMicroDiv">
-          <img src={user6} alt="user2"></img>
+          {/* first micro div --> end  */}
+
+          {/* second micro div --> start  */}
+
+          <div className="secondMicroDiv">
+            <h4>Mohannad Zitoun</h4>
+
+            <h5>12 mutual friends</h5>
+          </div>
+
+          {/* second micro div --> end  */}
         </div>
 
-        {/* first micro div --> end  */}
+        {/* third small div --> end  */}
 
-        {/* second micro div --> start  */}
+        {/* fourth small div --> start  */}
 
-        <div className="secondMicroDiv">
+        <div className="fourthSmallDiv">
+          {/* first micro div --> start  */}
 
-          <h4>Mohannad Zitoun</h4>
+          <div className="FirstmicroDiv">
+            <img src={user7} alt="user3"></img>
+          </div>
 
-          <h5>12 mutual friends</h5>
+          {/* first micro div --> end  */}
 
-        </div>
+          <div className="SecondmicroDiv">
+            <h4>Mohannad Zebar</h4>
 
-        {/* second micro div --> end  */}
-      </div>
-
-      {/* third small div --> end  */}
-
-      {/* fourth small div --> start  */}
-
-      <div className="fourthSmallDiv">
-        {/* first micro div --> start  */}
-
-        <div className="FirstmicroDiv">
-          <img src={user7} alt="user3"></img>
-          
-        </div>
-
-        {/* first micro div --> end  */}
-
-        <div className="SecondmicroDiv">
-          <h4>Mohannad Zebar</h4>
-
-          <h5>12 mutual friends</h5>
+            <h5>12 mutual friends</h5>
+          </div>
         </div>
       </div>
-    </div>
-
-
 
       <div className="thirdpart">
         <div className="suppart">
           <h4>Suggest groupes</h4>
-          <a href="#">See all</a>
+          <a href="#S">See all</a>
         </div>
 
         <div className="suggprg">
@@ -143,7 +136,7 @@ function Suggest() {
               <img className="rms3" src={user3} alt="user3" />
               <img className="rms4" src={user4} alt="user4" />
             </div>
-            <a href="#">+2</a>
+            <a href="#S">+2</a>
             <p>Member apply</p>
           </div>
         </div>
@@ -151,8 +144,7 @@ function Suggest() {
 
 
 </>
-</div>  );
+  );
 }
-
 
 export default Suggest;
