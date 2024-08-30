@@ -6,20 +6,15 @@ import Sidebarleft from './component/Sidebarleft/Sidebarleft';
 import Container from './Container/Container';
 import Sidebarright from './component/Sidebarright/Sidebarright';
 
-
-
 function App() {
   return (
     <>
     <Header/>
-       
-      <Container>
-        
-      <Sidebarleft/> <Feed/><Sidebarright/>
-        
-      </Container> 
-     
-    
+    <Container>
+    <Sidebarleft/>
+     <Feed/>
+     <Sidebarright/>
+    </Container>
     </>
   )
 }
