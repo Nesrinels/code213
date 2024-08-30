@@ -20,7 +20,7 @@ function Suggest() {
       <div className="firstSmallDiv">
         <h4>Your Team</h4>
 
-        <a href="#">See all</a>
+        <a href="#S">See all</a>
 
         <hr></hr>
       </div>
@@ -102,7 +102,7 @@ function Suggest() {
       <div className="thirdpart">
         <div className="suppart">
           <h4>Suggest groupes</h4>
-          <a href="#">See all</a>
+          <a href="#S">See all</a>
         </div>
 
         <div className="suggprg">
@@ -117,12 +117,47 @@ function Suggest() {
               <img className="rms3" src={user3} alt="user3" />
               <img className="rms4" src={user4} alt="user4" />
             </div>
-            <a href="#">+2</a>
+            <a href="#S">+2</a>
             <p>Member apply</p>
           </div>
         </div>
       </div>
 
+      <div className='lastpart'>
+      <div className='suppart2'>
+      <h4>Event</h4>
+      <a href="#S" > See all</a>
+      </div>
+      <div className='A2'>
+        <div className='a'>
+          FEB <br />22
+        </div>
+        <div className='b'>
+          <h4>Meeting with clients</h4>
+          <p>41 madison ave, floor 24 new york, NY 10010</p>
+        </div>
+      </div>
+      <div className='B'>
+        <div className='c'>
+          APR <br />30
+        </div>
+        <div className='d'>
+          <h4>Developer Program</h4>
+          <p>41 madison ave, floor 24 new york, NY 10010</p>
+        </div>
+      </div>
+      <div className='C'>
+        <div className='e'>
+          APR <br />23
+        </div>
+        <div className='f'>
+          <h4>Developer Program</h4>
+          <p>41 madison ave, floor 24 new york, NY 10010</p>
+        </div>
+      </div>
+
+
+    </div>
 
 </>
   );
