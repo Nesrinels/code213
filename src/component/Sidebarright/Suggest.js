@@ -12,7 +12,7 @@ function Suggest() {
    <div className="thirdpart">
     <div className="suppart">
       <h4>Suggest groupes</h4>
-      <a href="#">See all</a>
+      <a href="#S">See all</a>
     </div>
 
     <div className="suggprg">
@@ -27,7 +27,7 @@ function Suggest() {
         <img className='rms' src={user3} alt='user3' />
         <img className='rms' src={user4} alt='user4' />
         </div>
-        <a href="#">+2</a>
+        <a href="#S">+2</a>
         <p>Member apply</p>
       </div>
     </div>
