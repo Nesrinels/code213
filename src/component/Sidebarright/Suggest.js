@@ -5,10 +5,13 @@ import user3 from "../../assets/images/user3.png";
 import user4 from "../../assets/images/user2.png";
 import user1 from "../../assets/images/user1.png";
 import user2 from "../../assets/images/user4.png";
-<<<<<<< HEAD
+import user5 from "../../assets/images/user-pic-1.png"
+import user6 from "../../assets/images/user-pic-2.png"
+import user7 from "../../assets/images/user-pic-3.png"
 
 function Suggest() {
   return (
+    <div>
     <div className="suggest">
       <div className="block1">
         <h4>Suggest groupes</h4>
@@ -29,16 +32,11 @@ function Suggest() {
         <p>Member apply</p>
       </div>
     </div>
-  );
-}
+    
 
-=======
-import user5 from "../../assets/images/user-pic-1.png"
-import user6 from "../../assets/images/user-pic-2.png"
-import user7 from "../../assets/images/user-pic-3.png"
 
-function Suggest() {
-  return (
+
+
     <>
 
 
@@ -153,11 +151,8 @@ function Suggest() {
 
 
 </>
-  );
+</div>  );
 }
 
-
->>>>>>> 009f6c7bc2a6b09d22b71c3e58f283713702b996
-export default Suggest;
 
 export default Suggest;
