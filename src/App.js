@@ -3,6 +3,7 @@ import './App.css';
 import Header from './component/header/Header';
 import Sidebarleft from './component/Sidebarleft/Sidebarleft';
 import Container from './Container/Container';
+import Groups from './Groups/Groups';
 
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
     <Header/>
     <Container>
    
-      <Sidebarleft/> 
+      <Sidebarleft/>
     </Container>
+    <Groups/>
     </>
   )
 }
