@@ -11,7 +11,8 @@ import user7 from "../../assets/images/user-pic-3.png";
 
 function Suggest() {
   return (
-    <>
+          <>
+   
       <div className="firstComponent">
         {/* the first small div  --> start  */}
 
@@ -116,6 +117,7 @@ function Suggest() {
         </div>
       </div>
 
+
       <div className="lastpart">
         <div className="suppart2">
           <h4>Event</h4>
@@ -156,4 +158,4 @@ function Suggest() {
   );
 }
 
-export default Suggest;
+export default Suggest ; 
