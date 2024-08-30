@@ -353,11 +353,12 @@
 .lastpart {
   margin-top: 900px;
   margin-left: -500px;
-  margin-right: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
   border-radius: 15px !important;
   border: 0 !important;
   width: 25% !important;
-  height: 400px;
+  height: 350px;
   width: 375px !important;
   background-color: #fff;
   background-clip: border-box;
@@ -371,10 +372,21 @@
   justify-content: space-between;
 }
 
-.suppart a {
+.suppart2 a {
   color: #1E74FD;
+  margin-top: 10px;
+  margin-right: 20px;
   font-weight: bold;
   font-family: Montserrat, sans-serif;
+}
+
+.suppart2 h4{
+
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: 500;
+
 }
 
 .A2 {
@@ -386,6 +398,8 @@
   border-radius: 8px;
   background-color: #10d876;
   color: white;
+  margin-left: 10px;
+  margin-top: 30px;
   width: 60px;
   height: 60px;
   font-weight: bold;
@@ -393,7 +407,8 @@
 }
 
 .b {
-  margin-top: -10px;
+  margin-top: 40px;
+  margin-right: 5px;
   font-size: 13px !important;
   margin-left: 8px;
 }
@@ -404,13 +419,13 @@
 }
 
 .b p {
-  margin-top: -10px;
+  margin-top: 5px;
   font-family: Montserrat, sans-serif;
   color: #adb5bd;
   font-weight: 500 !important;
 }
 
-.B {
+.B2 {
   display: flex;
   justify-content: space-between;
 }
@@ -419,6 +434,8 @@
   border-radius: 8px;
   background-color: #FE9431;
   color: white;
+  margin-top: 27px;
+  margin-left: 10px;
   width: 60px;
   height: 60px;
   font-weight: bold;
@@ -426,7 +443,8 @@
 }
 
 .d {
-  margin-top: -10px;
+  margin-top: 35px;
+  margin-right: 7px;
   font-size: 13px !important;
   margin-left: 8px;
 }
@@ -437,13 +455,13 @@
 }
 
 .d p {
-  margin-top: -10px;
+  margin-top: 2px;
   font-family: Montserrat, sans-serif;
   color: #adb5bd;
   font-weight: 500 !important;
 }
 
-.C {
+.C2 {
   display: flex;
   justify-content: space-between;
 }
@@ -452,6 +470,8 @@
   border-radius: 8px;
   background-color: #1E74FD;
   color: white;
+  margin-left: 10px;
+  margin-top: 30px;
   width: 60px;
   height: 60px;
   font-weight: bold;
@@ -460,18 +480,21 @@
 }
 
 .f {
-  margin-top: -10px;
+  margin-top: 40px;
+  margin-right: 7px;
   font-size: 13px !important;
   margin-left: 8px;
 }
 
 .f h4 {
+
   font-weight: 700 !important;
   font-family: Montserrat, sans-serif;
+
 }
 
 .f p {
-  margin-top: -10px;
+  margin-top: 2px;
   font-family: Montserrat, sans-serif;
   color: #adb5bd;
   font-weight: 500 !important;
