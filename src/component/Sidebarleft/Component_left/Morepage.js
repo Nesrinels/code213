@@ -7,6 +7,9 @@ const SidebarContainer = styled.div`
   flex-direction: column;
   padding: 10px;
   width: 250px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12); 
+  border-radius: 10px;
+  margin-bottom: 12px;
  
 `;
 const SidebarTitle = styled.h3`
