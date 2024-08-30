@@ -3,13 +3,18 @@ import styled from 'styled-components';
 import { FaNewspaper, FaMedal, FaGlobe, FaUsers, FaUserCircle } from 'react-icons/fa';
 
 const SidebarContainer = styled.div`
+
+  margin-top: 10px;
+ margin-bottom:10px;
   display: flex;
   flex-direction: column;
   padding: 10px;
   width: 250px;
-   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12); 
+  background-color: #fff; /* White background */
+  border-right: 1px solid #e2e6ea; /* Light border on the right */
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12); 
   border-radius: 10px;
-   margin-bottom: 12px;
+ 
 `;
 
 const SidebarTitle = styled.h3`
@@ -21,24 +26,28 @@ const SidebarTitle = styled.h3`
 const SidebarItem = styled.div`
   display: flex;
   align-items: center;
-  padding: 10px;
-  margin: 5px 0;
+  padding: 5px;
+  margin: 3px 0;
   cursor: pointer;
-  border-radius: 12px; /* Border radius for rounded corners */
+  border-radius:8px; /* Border radius for rounded corners */
   &:hover {
     background-color: #e2e6ea;
   }
+
+  
+
 `;
 
 const IconWrapper = styled.div`
-  width: 40px;
-  height: 40px;
+
+  width: 25px;
+  height: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;  /* Makes the icon background circular */
   color: white;
-  margin-right: 20px; /* Space between icon and text */
+  margin-right: 15px; /* Space between icon and text */
 
   /* Custom colors for each icon based on the image you provided */
   &.newsfeed {
