@@ -18,7 +18,7 @@ function Feed() {
             <IoVideocamOutline />
             Live Video
           </a>
-          <a href="#" className="photo">
+          <a href="#" className="photos">
             <HiOutlinePhoto />
             Photo/Video
           </a>

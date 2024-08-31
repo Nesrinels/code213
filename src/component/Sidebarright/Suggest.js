@@ -10,6 +10,8 @@ import user6 from "../../assets/images/user-pic-2.png";
 import user7 from "../../assets/images/user-pic-3.png"
 
 
+
+
 function Suggest() {
 
   return (
