@@ -1,7 +1,7 @@
 import React from 'react';
 import { CiSearch } from "react-icons/ci";
 import { CiFilter } from "react-icons/ci";
-
+import './GroupHeader.css'
 function GroupHeader() {
   return (
     <div className="flex items-center justify-between p-4 bg-white">
