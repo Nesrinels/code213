@@ -12,12 +12,14 @@ const Suggestpg = () => {
       <div className="firstSmallDiv">
         <h4>Your Team</h4>
         <a href="#S">See all</a>
-        {/* <hr></hr> */}
       </div>
+      <hr></hr>
       <div className="block_1">
 
-        <div className="cmp1 ">
+        <div className="cmp1">
+          
           <img src={user5} alt="user1"></img>
+          
           <div className="secondmicroDiv">
             <h4>Anthony Daugloi</h4>
             <h5>12 mutual friends</h5>
