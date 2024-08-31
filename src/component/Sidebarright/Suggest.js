@@ -6,6 +6,8 @@ import user4 from "../../assets/images/user2.png";
 import user1 from "../../assets/images/user1.png";
 import user2 from "../../assets/images/user4.png";
 
+
+
 function Suggest() {
   return (
     <div className="suggest">
