@@ -17,7 +17,7 @@ function Suggest() {
   return (
     <>
 
-<div className="suggest">
+{/* <div className="suggest">
       <div className="block1">
         <h4>Suggest groupes</h4>
         <a href="#S">See all</a>
@@ -36,7 +36,7 @@ function Suggest() {
         <a href="#S"><p>+2</p></a>
         <p>Member apply</p>
       </div>
-    </div>
+    </div> */}
 
       <div className="firstComponent">
         {/* the first small div  --> start  */}
@@ -117,9 +117,29 @@ function Suggest() {
           </div>
         </div>
     
-      <div className="block2">
-        <hr id="hr" />
-        <img src={image} alt="grp Suggestion" />
+
+      <div className="thirdpart">
+        <div className="suppart">
+          <h4>Suggest groupes</h4>
+          <a href="#S">See all</a>
+        </div>
+
+        <div className="suggprg">
+          <hr id="hr" />
+          <div className="bigimg">
+            <img src={image} alt="grp Suggestion" />
+          </div>
+          <div className="A">
+            <div className="images">
+              <img className="rms1" id="a" src={user1} alt="user1" />
+              <img className="rms2" src={user2} alt="user2" />
+              <img className="rms3" src={user3} alt="user3" />
+              <img className="rms4" src={user4} alt="user4" />
+            </div>
+            <a href="#S">+2</a>
+            <p>Member apply</p>
+          </div>
+        </div>
       </div>
 
 
@@ -127,6 +147,7 @@ function Suggest() {
         <div className="suppart2">
           <h4>Event</h4>
           <a href="#S"> See all</a>
+          {/* <hr/> */}
         </div>
         <div className="A2">
           <div className="a">
