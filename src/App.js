@@ -8,6 +8,7 @@ import Sidebarleft from "./component/Sidebarleft/Sidebarleft";
 import Container from "./Container/Container";
 import Sidebarright from "./component/Sidebarright/Sidebarright";
 import Login from './login-register/Login';
+import Register from './login-register/Register'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         
         <Routes>
          <Route path="/login" element={<Login />} />
+         <Route path="/register" element={<Register />} />
         </Routes>
       
 
