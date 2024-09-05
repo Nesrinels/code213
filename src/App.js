@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "./App.css";
 
 import Post from "./Post/Post";
@@ -6,23 +7,23 @@ import Feed from "./component/feed/Feed";
 import Sidebarleft from "./component/Sidebarleft/Sidebarleft";
 import Container from "./Container/Container";
 import Sidebarright from "./component/Sidebarright/Sidebarright";
+import Login from './login-register/Login';
+
 
 function App() {
   return (
+    <Router>
     <>
       <Header />
-      <Container>
-        <Sidebarleft />  
-         <div className="container_feed">
-          <Feed />
-          <Post />
-         </div>      
-         <div className="container_right">
-        <Sidebarright />
-        </div> 
-      </Container>
+      
+        
+        <Routes>
+         <Route path="/login" element={<Login />} />
+        </Routes>
+      
 
     </>
+    </Router>
   );
 }
 

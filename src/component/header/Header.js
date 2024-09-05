@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Header.css";
 import logo from '../../assets/images/logo.png';
 import { CiHome } from "react-icons/ci";
@@ -55,7 +56,7 @@ function Header() {
           <button id="btn_1">< IoNotificationsOutline /></button>
           <button id="btn_1"><FiMessageSquare /></button>
           <button id="btn_1"><IoSettingsOutline /></button>
-          <button id="btn_1"><FcBusinesswoman /></button>
+          <Link to="/login" id="btn_1"><FcBusinesswoman /></Link>
         </div>
       </div>
     </header>
