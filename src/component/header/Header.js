@@ -10,6 +10,7 @@ import { IoNotificationsOutline } from 'react-icons/io5';
 import { FiMessageSquare } from 'react-icons/fi';
 import { IoSettingsOutline } from 'react-icons/io5';
 import { FcBusinesswoman } from 'react-icons/fc';
+import { Link } from "react-router-dom";
 
 
 function Header() {
@@ -54,7 +55,9 @@ function Header() {
          
           <button id="btn_1">< IoNotificationsOutline /></button>
           <button id="btn_1"><FiMessageSquare /></button>
-          <button id="btn_1"><IoSettingsOutline /></button>
+          <Link to="/settings"> <button id="btn_1"><IoSettingsOutline /></button> </Link>
+           
+         
           <button id="btn_1"><FcBusinesswoman /></button>
         </div>
       </div>

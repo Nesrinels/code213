@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -36,3 +37,11 @@
     transform: rotate(360deg);
   }
 }
+.testhello {
+  display: flex;
+  overflow-y: auto; /* Permet le défilement vertical */
+  overflow-x: auto;
+ 
+  width: 100%; /* Assure que le conteneur prend toute la largeur disponible */
+}
+
