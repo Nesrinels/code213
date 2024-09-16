@@ -1,8 +1,8 @@
 import React from "react";
 import "./Suggestpg.css";
-import user5 from "../../assets/images/user-pic-1.png";
-import user6 from "../../assets/images/user-pic-2.png";
-import user7 from "../../assets/images/user-pic-3.png";
+import user5 from "../../../assets/images/user-pic-1.png";
+import user6 from "../../../assets/images/user-pic-2.png";
+import user7 from "../../../assets/images/user-pic-3.png";
 import { FaPlus } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
 

@@ -8,6 +8,7 @@ const Event = () => {
       <h4>Event</h4>
       <a > See all</a>
       </div>
+      <hr/>
       <div className='A'>
         <div className='a'>
           FEB <br />22

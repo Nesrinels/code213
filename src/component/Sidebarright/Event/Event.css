@@ -2,17 +2,34 @@
     margin-top: 15px;
     border-radius: 15px !important;
     border: 0 !important;
-    width: 25% !important;
-    height: 300px;
+    width: 19rem;
+    height: 22rem;
     background-color: #fff;
     background-clip: border-box;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, .05) !important;
     box-sizing: border-box;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12); 
+    margin-bottom: 12px;
+}
+.lastpart h4 {
+    font-weight: 700 !important;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+.lastpart p {
+    margin-top: 4px;
+    font-family: Montserrat, sans-serif;
+    color: #adb5bd ;
+    font-weight: 500 !important;
 }
 .suppart{
    display: flex;
    align-items: center;
    justify-content: space-between;
+   /* margin-left: 2px;
+   margin-right: 15px; */
+   padding: 1rem;
 }
 .suppart a{
     color: #1E74FD;
@@ -24,6 +41,7 @@
 .A{
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
 }
 .a{
 border-radius: 8px;
@@ -39,20 +57,13 @@ text-align: center;
     font-size: 13px !important;
     margin-left: 8px;
 }
-.b h4{
-    font-weight: 700 !important;
-    font-family: Montserrat, sans-serif;
-}
 
-.b p{
-    margin-top: -10px;
-    font-family: Montserrat, sans-serif;
-    color: #adb5bd ;
-    font-weight: 500 !important;
-}
+
+
 .B{
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
 }
 .c{
     border-radius: 8px;
@@ -68,19 +79,12 @@ text-align: center;
     font-size: 13px !important;
     margin-left: 8px;
 }
-.d h4{
-    font-weight: 700 !important;
-    font-family: Montserrat, sans-serif;
-}
-.d p {
-    margin-top: -10px;
-    font-family: Montserrat, sans-serif;
-    color: #adb5bd ;
-    font-weight: 500 !important;
-}
+
+
 .C{
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
 }
 .e{
     border-radius: 8px;
@@ -96,14 +100,10 @@ text-align: center;
     margin-top: -10px;
     font-size: 13px !important;
     margin-left: 8px;
+    padding: 1rem;
 }
 .f h4{
     font-weight: 700 !important;
     font-family: Montserrat, sans-serif;
 }
-.f p {
-    margin-top: -10px;
-    font-family: Montserrat, sans-serif;
-    color: #adb5bd ;
-    font-weight: 500 !important;
-}
+
