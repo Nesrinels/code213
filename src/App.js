@@ -17,9 +17,9 @@ function App() {
           <Feed />
           <Post />
          </div>      
-         <div className="container_right">
+        
         <Sidebarright />
-        </div> 
+         
       </Container>
 
     </>

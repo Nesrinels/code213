@@ -10,10 +10,10 @@ import Suggestpg from "./Suggestpg";
 
 function Sidebarright() {
   return (
-    <>
+    <div className="container_right">
     <Suggest/>
     <Suggestpg/>
-    </>
+    </div>
   );
 }
 
