@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Post from "./Post/Post";
+import Post from "././component/Post/Post";
 import Header from "./component/header/Header";
 import Feed from "./component/feed/Feed";
 import Sidebarleft from "./component/Sidebarleft/Sidebarleft";

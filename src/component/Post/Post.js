@@ -1,8 +1,8 @@
 import React from "react";
 import "./Post.css";
 import { FcLikePlaceholder } from "react-icons/fc";
-import user3 from "../assests/user3.png";
-import rose from "../assests/rose.jpg";
+import user3 from "../../assests/user3.png";
+import rose from "../../assests/rose.jpg";
 import { AiOutlineLike } from "react-icons/ai";
 import { FaRegComment } from "react-icons/fa6";
 import { HiOutlineShare } from "react-icons/hi";
